@@ -13,5 +13,10 @@ class home extends CI_Controller{
         return $this->load->view('v_tampil');
     }
 
+    public function form()
+    {
+        echo 'Form input';
+    }
+
 }
 
