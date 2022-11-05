@@ -15,7 +15,11 @@ class home extends CI_Controller{
 
     public function form()
     {
-        echo 'Form input';
+        return $this->load->view('v_form');
+    }
+    public function mahasiswa()
+    {
+        return $this->load->view('v_mahasiswa');
     }
 
 }
